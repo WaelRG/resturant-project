@@ -1,0 +1,119 @@
+body {
+  font-family: "Cairo", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #9d0208;
+}
+html {
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  /* background: rgb(20, 32, 46);
+
+  background: rgb(45, 67, 86); */
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+/*small*/
+@media (min-width: 768px) {
+  .container {
+    width: 760px;
+  }
+}
+/*medium*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/*larg*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+input {
+  color: white;
+}
+/* start card */
+.card {
+  top: 30%;
+  left: 20%;
+  background: left;
+  height: 100%;
+  background: linear-gradient(180deg, #ff790061, #ff790042);
+  border-radius: 2rem;
+
+  box-shadow: -3px -2px 11px 0px;
+}
+
+.card .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 1rem;
+  position: absolute;
+  top: 17%;
+}
+.card input {
+  margin: 39px;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background: none;
+  border: 1px solid;
+  border-color: white;
+}
+.card input:focus {
+  outline: none;
+}
+.card input::placeholder {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.card form i {
+  margin: 10px;
+  font-size: 29px;
+  color: white;
+}
+.card form button a {
+  color: white;
+}
+.card form button {
+  padding: 1rem 4rem 1rem;
+  border-radius: 1rem;
+  border: navajowhite;
+  margin: 10px;
+  background: #ff7900;
+
+  font-weight: bold;
+}

@@ -1,0 +1,80 @@
+body {
+  font-family: "Cairo", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #9d0208;
+}
+html {
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+input {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+/*small*/
+@media (min-width: 768px) {
+  .container {
+    width: 760px;
+  }
+}
+/*medium*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/*larg*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.card {
+  background: left;
+  height: 100%;
+  background: linear-gradient(180deg, #ff790061, #ff790042);
+  border-radius: 2rem;
+  box-sizing: border-box;
+  box-shadow: -3px -2px 11px 0px;
+}
+
+.card .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card .button {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.card button {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 1rem;
+  border: none;
+  background: #ff7900;
+  color: white;
+}
